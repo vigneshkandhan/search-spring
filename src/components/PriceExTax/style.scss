@@ -1,0 +1,17 @@
+.price-ex-tax {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  color: #1d2024;
+  margin-bottom: 6px;
+
+  &.large {
+    font-size: 18px;
+    margin-top: 6px;
+  }
+
+  span {
+    // font-size: 24px;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../color.scss";
+
+.price-block {
+  margin: 6px 0;
+  .discount {
+    color: $blue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    height: 20px;
+
+    span {
+      text-decoration: line-through;
+      text-decoration-color: $red;
+    }
+  }
+}

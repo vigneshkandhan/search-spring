@@ -1,0 +1,32 @@
+@import "../color.scss";
+
+.slider {
+  .slick-arrow.slick-next {
+    right: -24px;
+    &::before {
+      content: url("../assets/images/common/chevron-right.svg");
+    }
+  }
+  .slick-prev {
+    left: -40px;
+
+    &::before {
+      content: url("../assets/images/common/chevron-left.svg");
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 60px;
+    background-color: $black;
+    color: $white;
+    top: 242px;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      background: $black;
+      opacity: 0.7;
+    }
+  }
+}

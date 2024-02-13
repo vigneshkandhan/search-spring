@@ -1,0 +1,45 @@
+@import "../../color.scss";
+
+.product-colors {
+  &.colors {
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 4px;
+    background: $white;
+  }
+  .outline {
+    border: 1px solid;
+    padding: 2px;
+  }
+  .round {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    span {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      padding-left: 10px;
+      text-transform: capitalize;
+    }
+  }
+
+  img {
+    float: right;
+    position: relative;
+    top: -26px;
+  }
+
+  .black {
+    background-color: $black;
+  }
+
+  .green {
+    background-color: $green;
+  }
+
+  .red {
+    background-color: $red_2;
+  }
+}

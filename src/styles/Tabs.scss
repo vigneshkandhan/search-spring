@@ -1,0 +1,37 @@
+.product-tabs {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 10px;
+
+  .react-tabs__tab-list {
+    border: 0;
+  }
+
+  .react-tabs__tab {
+    margin: 6px 0 0 27px;
+    padding: 0;
+
+    &:first-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .react-tabs__tab--selected {
+    color: $red_2;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid $red_2;
+    font-weight: 600;
+  }
+
+  .react-tabs__tab:focus:after {
+    content: none;
+  }
+}

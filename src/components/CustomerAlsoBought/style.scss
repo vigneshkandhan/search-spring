@@ -1,0 +1,37 @@
+@import "../../color.scss";
+
+.customer-also-bought {
+  padding: 32px 24px 66px 24px;
+  .header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+  .product-tabs {
+    font-size: 14px;
+  }
+
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 32px;
+    .item {
+      width: 250px;
+
+      .items {
+        width: 100%;
+        padding: 0 14px 0 14px;
+      }
+    }
+    .container > div {
+      flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+      /*demo*/
+      box-shadow: 0 0 0 1px black;
+      margin-bottom: 10px;
+    }
+  }
+}

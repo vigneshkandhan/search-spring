@@ -1,0 +1,29 @@
+@import "../../color.scss";
+
+.pricing-content {
+  margin-left: 50px;
+  margin-top: 76px;
+
+  .items-added {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .pricing-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+.pricing-sidebar-content {
+  .pricing-sidebar {
+    .slide-pane__content {
+      padding: 0;
+    }
+  }
+  .pricing-sidebar {
+  }
+}

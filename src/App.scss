@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "./styles/FreqentlyBoughtTogether.scss";
+@import "./styles/Slider.scss";
+@import "./styles/Modal.scss";
+@import "./styles/Tabs.scss";
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Encode Sans", sans-serif;
+  overflow-y: hidden;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+//flex
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-auto {
+  flex: 1 1 auto;
+}
+.flex-initial {
+  flex: 0 1 auto;
+}
+.flex-none {
+  flex: none;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+//column-gap
+
+.column-gap-10 {
+  column-gap: 10px;
+}
+
+.column-gap-20 {
+  column-gap: 20px;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
+}
+
+//grow
+.grow {
+  flex-grow: 1;
+}
+.grow-0 {
+  flex-grow: 0;
+}
+
+//direction
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+//wrap
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+//align-items
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.items-stretch {
+  align-items: stretch;
+}
+
+//align-self
+.self-auto {
+  align-self: auto;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-center {
+  align-self: center;
+}
+.self-stretch {
+  align-self: stretch;
+}
+.self-baseline {
+  align-self: baseline;
+}
+
+//content
+.content-center {
+  justify-content: center;
+}
+
+//text-align
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+//vertical center
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+//flex-start
+.flex-start {
+  justify-content: flex-start;
+}
+
+.app-btn {
+  background-color: $black;
+  color: $white;
+  width: 263px;
+  height: 40px;
+  top: 488px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  &.btn-2 {
+    background-color: $white;
+    color: $black_2;
+    border: 1px solid $black_2;
+  }
+}
+
+button {
+  &:hover {
+    opacity: 0.7;
+  }
+}

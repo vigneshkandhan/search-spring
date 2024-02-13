@@ -1,0 +1,23 @@
+@import "../../../color.scss";
+.product-image {
+  .image-content {
+    width: 382px;
+    margin: 32px auto 10px auto;
+  }
+
+  .image-thumbnail {
+    width: 75px;
+    height: 75px;
+    border-radius: 4px;
+    padding: 1px;
+    margin-left: 20px;
+
+    &.active {
+      border: 1px solid $black_2;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

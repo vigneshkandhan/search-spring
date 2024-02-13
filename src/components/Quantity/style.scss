@@ -1,0 +1,27 @@
+@import "../../color.scss";
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  background: $white;
+  border: 1px solid $grey;
+  height: 40px;
+
+  .operator {
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: $black_2;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

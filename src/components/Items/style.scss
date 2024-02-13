@@ -1,0 +1,44 @@
+@import "../../color.scss";
+.items {
+  height: 429px;
+  width: 15vw;
+  cursor: pointer;
+  position: relative;
+  // border: 1px solid;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  .item-badge {
+    position: absolute;
+    top: 0;
+  }
+
+  .desc {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    .bold {
+      font-weight: 600;
+    }
+  }
+
+  input[type="checkbox"].checkbox {
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 10px;
+    width: 27px;
+    height: 27px;
+    background: white;
+    border: 1px solid;
+    border-radius: 4px;
+
+    accent-color: black;
+    border: 0;
+    width: 19px;
+    height: 19px;
+  }
+}

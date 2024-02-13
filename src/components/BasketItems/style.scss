@@ -1,0 +1,84 @@
+@import "../../color.scss";
+.basket-items {
+  background: $bg_Color;
+
+  .content {
+    padding: 28px 24px 16px 24px;
+
+    span {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      padding-left: 10px;
+    }
+  }
+
+  .basket-image {
+    padding: 0 0 24px 24px;
+    .block {
+      background: $white;
+      border-radius: 4px;
+      margin-right: 6px;
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+
+  .basket-total {
+    padding: 0 0 24px 24px;
+    .sub-total {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    .pricing-block {
+      margin-left: 16px;
+
+      .block-1 {
+        .price-block {
+          display: flex;
+          align-items: flex-end;
+        }
+      }
+
+      .block-2 {
+        margin-top: 1px;
+      }
+    }
+
+    .price-inc-tax,
+    .price-ex-tax {
+      margin: 0;
+    }
+
+    .price-inc-tax {
+      font-size: 16px;
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    .price-ex-tax {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    .price-block {
+      margin: 0;
+    }
+  }
+
+  .btn-grp {
+    padding: 0 0 24px 24px;
+    gap: 16px;
+
+    .app-btn {
+      margin-top: 0;
+    }
+  }
+}

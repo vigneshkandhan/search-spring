@@ -1,0 +1,25 @@
+@import "../../color.scss";
+.product-detail {
+  position: relative;
+
+  div.content {
+    width: 50%;
+  }
+  .header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .product-padding {
+    padding: 20px 30px;
+  }
+
+  .divider {
+    height: 1.5px;
+    width: 106%;
+    background: $grey;
+    position: absolute;
+    left: -30px;
+    top: 101px;
+  }
+}

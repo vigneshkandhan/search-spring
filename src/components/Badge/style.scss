@@ -1,0 +1,32 @@
+@import "../../color.scss";
+
+.badge-label {
+  width: 81px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  &.orange {
+    background-color: $orange;
+    color: $white;
+  }
+
+  &.yellow {
+    background-color: $yellow;
+    color: $black;
+  }
+}
+
+.badge {
+  border-radius: 4px;
+  background: $red_2;
+  color: $white;
+  text-align: center;
+  height: 22px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 114px;
+  font-weight: 700;
+}
